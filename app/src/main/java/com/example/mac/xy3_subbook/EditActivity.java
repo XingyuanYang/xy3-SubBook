@@ -52,7 +52,7 @@ public class EditActivity extends AppCompatActivity {
                 String price = priceText.getText ().toString ();
                 String comments = commentsText.getText().toString();
                 Double dprice = new Double(price);
-                DateFormat df =  new SimpleDateFormat ("yyyy/MM/dd");
+                DateFormat df =  new SimpleDateFormat ("yyyy-MM-dd");
                 Date date1 = null;
                 try {
                     date1 = df.parse (date);

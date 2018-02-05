@@ -43,7 +43,7 @@ public class ViewActivity extends AppCompatActivity {
         book = bList.getBook (index);
         String name = book.getName ();
         Date date = book.getDate ();
-        DateFormat df =  new SimpleDateFormat ("yyyy/MM/dd");
+        DateFormat df =  new SimpleDateFormat ("yyyy-MM-dd");
         String date1 = df.format (date);
         Double price = book.getPrice ();
         String price1 = price.toString ();

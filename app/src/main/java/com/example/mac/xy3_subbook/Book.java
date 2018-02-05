@@ -22,7 +22,7 @@ public class Book {
         this.date = date;
     }
     public String toString(){
-        DateFormat df = new SimpleDateFormat ("yyyy/MM/dd");
+        DateFormat df = new SimpleDateFormat ("yyyy-MM-dd");
         String rDate = df.format(date);
         return "Name:"+name+ "\nDate:"+rDate + "\nPrice:"+ price + "comments : " + comment ;}
 
