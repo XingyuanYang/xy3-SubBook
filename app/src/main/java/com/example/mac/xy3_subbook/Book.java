@@ -5,7 +5,12 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 
 /**
+ * Assignment1
  * Created by Xingyuan Yang on 2018-02-03.
+ * This is a class about the book, which is the main object in this program
+ * It contains name, date, price and comments.
+ * Moreover, it will return the name, date,price and comments.
+ * and combining those things to a string.
  */
 
 public class Book {

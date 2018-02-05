@@ -10,6 +10,19 @@ import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.ListView;
 import android.widget.TextView;
+/**
+ *
+ * Created by Xingyuan Yang on 2018-02-04.
+ * MainActivity is related to the activity_main.
+ * It contains a list that contains all the subscriptions
+ * More than that, there is a button add in the bottom.
+ * The user can tap the button to add new subscriptions.
+ * The user also can tap the item, then they will enter the
+ * view activity to see the detail of the subscription.
+ * It will load all the information from the list
+ * and show up in the list view.
+ *
+ */
 
 
 public class MainActivity extends AppCompatActivity {

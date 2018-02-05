@@ -16,7 +16,13 @@ import java.lang.reflect.Type;
 import java.util.ArrayList;
 
 /**
+ *
  * Created by Xingyuan Yang on 2018-02-04.
+ * BookList contain the function of save and load.
+ * So, for every activities,it can read data from file
+ * and write data into the file. Moreover, we defined the
+ * arraylist, which contain all the information of subscriptions.
+ *
  */
 
 public class BookList {

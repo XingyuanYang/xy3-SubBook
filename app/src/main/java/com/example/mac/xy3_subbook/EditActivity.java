@@ -14,6 +14,16 @@ import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
+/**
+ *
+ * Created by Xingyuan Yang on 2018-02-04.
+ * The EditActivity class is closely related to the activity_edit.
+ * In here, the users can change the subscription they select.
+ * With rewrite the information, they can get a new subscription.
+ *
+ */
+
+
 public class EditActivity extends AppCompatActivity {
 
     private EditText nameText;

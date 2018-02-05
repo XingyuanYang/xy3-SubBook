@@ -14,6 +14,20 @@ import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
+/**
+ *
+ * Created by Xingyuan Yang on 2018-02-04.
+ * This class is connected to the activity_view.
+ * When the user tap the item in the main activity.
+ * It will jump to this activity. In this activity
+ * we can see the detail of the subscription.
+ * More than that, it contains 3 button, back, edit , and delete
+ * tap back will return to the main activity without doing anything
+ * tap delete will delete current subscription.
+ * tap edit will let you write the subscription again for modifying purpose.
+ *
+ */
+
 public class ViewActivity extends AppCompatActivity {
 
     private TextView nameText;

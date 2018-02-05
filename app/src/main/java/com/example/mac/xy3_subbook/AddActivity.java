@@ -14,6 +14,16 @@ import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
+/**
+ *
+ * Created by Xingyuan Yang on 2018-02-04.
+ * This class is connected to the add_activity.
+ * when we fill up the blank, we push add button
+ * and the program will add everything into the
+ * list and show everything in the main activity.
+ *
+ */
+
 public class AddActivity extends AppCompatActivity {
 
     private static  final String FILENAME = "file.sav";
