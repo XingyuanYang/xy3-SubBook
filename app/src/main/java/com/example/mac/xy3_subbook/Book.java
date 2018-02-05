@@ -1,5 +1,7 @@
 package com.example.mac.xy3_subbook;
 
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
 import java.util.Date;
 
 /**
@@ -13,12 +15,16 @@ public class Book {
     private Date date;
     private String comment;
 
-    public Book(String name,Date date, Double price, String Comment){
+    public Book(String name,Date date, Double price, String comment){
         this.name = name;
-        this.price = 0.0;
+        this.price = price;
         this.comment = comment;
-        this.date = new Date();
+        this.date = date;
     }
+    public String toString(){
+        DateFormat df = new SimpleDateFormat ("yyyy/MM/dd");
+        String rDate = df.format(date);
+        return "Name:"+name+ "\nDate:"+rDate + "\nPrice:"+ price + "comments : " + comment ;}
 
     public String getName() {return name;}
 
