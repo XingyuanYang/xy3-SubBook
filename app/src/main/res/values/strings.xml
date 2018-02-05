@@ -18,4 +18,10 @@
     <string name="comments">Comments</string>
     <string name="entercomments">EnterComments</string>
     <string name="cancel">Cancel</string>
+    <string name="subscription">subscription</string>
+    <string name="edit">Edit</string>
+    <string name="subscri">Subscri</string>
+    <string name="delete">Delete</string>
+
+
 </resources>

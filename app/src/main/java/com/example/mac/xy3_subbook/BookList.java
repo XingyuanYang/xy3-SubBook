@@ -32,14 +32,13 @@ public class BookList {
         booklist.add(newbook);
     }
 
-    public void deleteSub(Book newbook){
-        booklist.remove(newbook);
+    public void deleteSub(int i){
+        booklist.remove(i);
     }
 
-    public void changePrice(int i){
+    public Book getBook(int i) {return booklist.get(i);}
 
 
-    }
 
 
 
